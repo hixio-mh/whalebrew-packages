@@ -1,4 +1,4 @@
-FROM python:alpine
+FROM python:rc-alpine
 RUN apk add --no-cache groff less mailcap
 ARG VERSION=1.18.17
 RUN pip install awscli${VERSION+==$VERSION}
