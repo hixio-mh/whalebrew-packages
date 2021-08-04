@@ -1,4 +1,4 @@
-FROM hashicorp/terraform:latest
+FROM hashicorp/terraform:1.0.4
 
 ## Adding in case we need Terraform to call them.
 RUN apk --update upgrade && \
