@@ -1,4 +1,4 @@
-FROM python:alpine
+FROM python:rc-alpine
 ARG VERSION=0.8.0
 RUN pip install awslogs${VERSION+==$VERSION}
 LABEL io.whalebrew.name awslogs
