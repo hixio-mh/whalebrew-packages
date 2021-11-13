@@ -1,4 +1,4 @@
-FROM python:3.8-alpine
+FROM python:3.11.0a2-alpine
 
 ENV LANG=en_US.UTF-8
 LABEL io.whalebrew.config.ports '["8080:8080"]'
