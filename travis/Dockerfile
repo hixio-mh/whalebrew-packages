@@ -1,4 +1,4 @@
-FROM ruby:2.4-alpine
+FROM ruby:2.7.4-alpine
 
 LABEL io.whalebrew.name travis
 LABEL io.whalebrew.config.volumes '["~/.travis:/.travis"]'
